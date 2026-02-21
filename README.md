@@ -11,7 +11,7 @@ Docker構築
 
 ```
 mysql:
-    platform: linux/x86_64(この文追加)
+    platform: linux/arm64(この文追加)
     image: mysql:8.0.26
     environment:
 ```
