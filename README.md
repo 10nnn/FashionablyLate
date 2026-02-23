@@ -39,4 +39,13 @@ DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 ```
 
+5. アプリケーションキーの作成
+```
+php artisan key:generate
+```
+
+6. マイグレーションの実行
+```
+php artisan migrate
+```
 
